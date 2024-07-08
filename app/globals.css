@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: 'PublicSans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/public-sans.ttf);
+  }
+}
