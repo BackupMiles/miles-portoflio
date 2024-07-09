@@ -1,9 +1,9 @@
 "use client"
-import { OrbitControls } from "@react-three/drei";
+
 import { Canvas } from "@react-three/fiber";
-import { buildWavesUniform } from "./constants/uniforms";
-import RendererInfo from "./renderer-info";
-import { FRAGMENT_SHADER, VERTEX_SHADER } from "./constants/shaders";
+import { buildWavesUniform } from "../../../constants/uniforms";
+import RendererInfo from "../renderer-info";
+import { FRAGMENT_SHADER, VERTEX_SHADER } from "../../../constants/shaders";
 
 const RagingSea = () => {
   const uniforms = buildWavesUniform({ 
